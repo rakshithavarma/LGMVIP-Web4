@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
+}
+body{
+    background-color: lightgrey;
+    justify-content: center;
+    background-image: url("wooden-background.jpeg");
+}
+.tab{
+    background-color: black;
+    padding:10px;
+    border-radius: 1.2vh;
+    margin: auto;
+    border-width: 10px;
+    border-color: rgba(255, 255, 255, 0.205);
+}
+.t{
+    font-size: 3vh;
+    background-color: rgba(61, 110, 61, 0.774); 
+    padding: 1vh ;
+    text-align: left;
+    border-color: rgba(255, 255, 255, 0.205);
+}
+.b{
+    background-color: rgb(94, 94, 94);
+    border-color: rgba(255, 255, 255, 0.205);
+    color:whitesmoke;
+    padding: 2vh 4vh;
+    border-radius: 1.2vh;
+}
+.sp{
+    color:whitesmoke;
+    padding: 2vh 4vh;
+    font-size:25px;
+    border-radius: 1.2vh;
+    background-color:rgb(186, 186, 186) ;
+    border-color: rgba(104, 104, 104, 0.5);
+}

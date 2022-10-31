@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 style="padding:4vh">Calculator</h1>
+    <table cellspacing="2px" cellpadding="3px" class="tab" border="20">
+        <tr>
+            <td colspan="3" align="center" >
+                <input title="title" type="text" class="t" id="ans">
+            </td>
+            <td align="center"><button class="sp" onclick="clr()">C</button></td>
+        </tr>
+        <tr>
+            <td align="center"><button class="b" onclick="displ('7')">7</button></td>
+            <td align="center"><button class="b" onclick="displ('8')">8</button></td>
+            <td align="center"><button class="b" onclick="displ('9')">9</button></td>
+            <td align="center"><button class="b" onclick="displ('*')">*</button></td>
+        </tr>
+        <tr>
+            <td align="center"><button class="b" onclick="displ('4')">4</button></td> 
+            <td align="center"><button class="b" onclick="displ('5')">5</button></td>
+            <td align="center"><button class="b" onclick="displ('6')">6</button></td>
+            <td align="center"><button class="b" onclick="displ('-')">-</button></td>
+        </tr>
+        <tr>
+            <td align="center"><button class="b" onclick="displ('1')">1</button></td>
+            <td align="center"><button class="b" onclick="displ('2')">2</button></td>
+            <td align="center"><button class="b" onclick="displ('3')">3</button></td>
+            <td align="center"><button class="b" onclick="displ('+')">+</button></td>
+        </tr>
+        <tr>
+            <td align="center"><button class="b" onclick="displ('/')">/</button></td>
+            <td align="center"><button class="b" onclick="displ('0')">0</button></td>
+            <td align="center"><button class="b" onclick="displ('.')">.</button></td>
+            <td align="center"><button class="sp" onclick="calc()">=</button></td>
+        </tr>
+    </table>
+</body>
+<script src="calculator.js"></script>
+</html>
